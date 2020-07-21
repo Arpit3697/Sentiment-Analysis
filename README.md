@@ -1,4 +1,4 @@
-Collect.py
+**Collect.py**
 
 Collecting data from Twitter API.
 I have collected the followers of 4 Indian cricketer: Virat Kohli, M S Dhoni, Suresh Raina, Rohit Sharma.
@@ -7,7 +7,7 @@ Stored the graph using pickle into a file named as graph.pickle.
 Collected the tweets by querying the parameter as the screen_name of the users.
 Stored the tweets using pickle into a file named as tweets.pickle.
 
-Cluster.py
+**Cluster.py**
 
 Loaded the graph stored in graph.pickle into a dictionary named graph.
 Used Girman Newman Algorithm to find two clusters. The original graph is saved to network.png.
@@ -15,7 +15,7 @@ Used Girman Newman Algorithm to find two clusters. The original graph is saved t
 Stored the clusters details using pickle into a file named as clusters.pickle.
 
 
-Classify.py
+**Classify.py**
 
 Loaded the tweets stored in tweets.pickle into a dictionary named as tweets.
 Downloaded the AFINN dataset for the analysis of raw data (tweets) whether the tweets about the users is positive, negative or mixed.
@@ -25,6 +25,6 @@ If the tweet contains more score of negative words than positive words then the 
 And if the score of positive and negative words are equal then the tweet belongs to the mixed class.
 Stored the results in the file named as classify.pickle.
 
-Summarize.py
+**Summarize.py**
 
 Collected the information using the results got from collect.py, cluster.py and classify.py
