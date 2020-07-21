@@ -27,4 +27,4 @@ Stored the results in the file named as classify.pickle.
 
 **Summarize.py**
 
-Collected the information using the results got from collect.py, cluster.py and classify.py
+Collected the information using the results got from collect.py, cluster.py and classify.py. You can see the Summary and Positiveness and Negativeness of the tweet.
